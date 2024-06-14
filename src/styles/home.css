@@ -1,7 +1,2 @@
 @charset "UTF-8";
 
-h1 {
-    text-align: center;
-    color: var(--cor-escurona);
-    background-color: var(--cor-clara);
-}

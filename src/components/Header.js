@@ -1,5 +1,6 @@
 import '../styles/header.css'
 import { Link } from 'react-router-dom'
+import Lusha from '../imagens/Lusha.png'
 
 function Header() {
     return (
@@ -8,7 +9,7 @@ function Header() {
             <div className="interface">
                 <div className="logo">
                     <Link to="/">
-                        <img src={""} alt="Logo Lusha" />
+                        <img src={Lusha} alt="Logo Lusha" />
                     </Link>
                 </div>
                 <nav className="menu-desktop">
