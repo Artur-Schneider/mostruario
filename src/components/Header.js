@@ -14,10 +14,10 @@ function Header() {
                 </div>
                 <nav className="menu-desktop">
                     <ul>
-                        <li><Link to="/page01" rel="next">Conjunto Girafinha</Link></li>
-                        <li><Link to="/page01" rel="next">Conjunto Gatinho</Link></li>
-                        <li><Link to="/page01" rel="next">Conjunto Coelinho</Link></li>
-                        <li><Link to="/page01" rel="next">Conjunto Leãozinho</Link></li>
+                        <li><Link to="/page01" rel="next" id="primeiro">Conjunto Girafinha</Link></li>
+                        <li><Link to="/page01" rel="next" id="segundo">Conjunto Gatinho</Link></li>
+                        <li><Link to="/page01" rel="next" id="terceiro">Conjunto Coelinho</Link></li>
+                        <li><Link to="/page01" rel="next" id="quarto">Conjunto Leãozinho</Link></li>
                     </ul>
                 </nav>
                 <div className="contato">
