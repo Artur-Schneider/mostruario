@@ -1,5 +1,8 @@
 import '../styles/home.css'
 import Slider from '../components/Slider'
+import Girafinha from '../imagens/Girafinha.png'
+import Gatinho from '../imagens/Gatinho.png'
+import Coelinho from '../imagens/Coelinho.png'
 
 function Home() {
     return (
@@ -8,7 +11,7 @@ function Home() {
             <div className="interface">
                 <div className="flex">
                     <div className="txt-topo-site">
-                        <h1>Lusha Crochê</h1>
+                        <h1>Lusha <br /> Crochê</h1>
                     </div>
                     <div className='slider'>
                         <h2>Destaques:</h2>
@@ -20,20 +23,19 @@ function Home() {
 
         <section className="especialidades" id="secao1">
             <div className="interface">
-                <h2 className="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+                <h2 className="titulo">Conjuntos</h2>
                 <div className="flex">
+
                     <div className="especialidades-box">
-                        <h3>Website</h3>
-                        <p>Este portfólio é um exemplo de projeto desenvolvido em um website, em que houve otimização do desempenho e responsividade do site, assegurando que funcione perfeitamente em uma variedade de dispositivos e navegadores. Além de serem incluidas animações, transições suaves e funcionalidades interativas, para melhorar ainda mais a experiência do usuário e a usabilidade do site.</p>
+                        <img src={Coelinho} />
                     </div> 
                     <div className="especialidades-box">
-                        <h3>Loja online</h3>
-                        <p>Em uma loja virtual, meu foco principal é criar uma experiência de usuário otimizada e atraente para os clientes. Isso envolve a implementação de layouts responsivos e intuitivos, garantindo que a loja virtual seja acessível para todos os clientes e que os usuários possam navegar facilmente pelos produtos e realizar as suas compras.</p>
+                        <img src={Gatinho} />
                     </div>
                     <div className="especialidades-box">
-                        <h3>Blog</h3>
-                        <p>Em um blog, posso desempenhar várias funções para melhorar a experiência do usuário e a estética do site. Isso inclui a criação de um layout responsivo e atraente para garantir uma ótima visualização em diferentes dispositivos. Também posso implementar recursos de navegação intuitivos para facilitar a descoberta de conteúdo pelos usuários, além de implementar botões de compartilhamento, para aumentar o engajamento do público.</p>
+                        <img src={Girafinha} />
                     </div>
+                    
                 </div>
             </div>
         </section>
