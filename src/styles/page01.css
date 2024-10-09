@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.fotos {
+    display: flex;
+    margin-top: 8%;
+    margin-left: 16%;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    width: 850px;
+    background-color: var(--cor-clara);
+    float: left;
+}
+
+.texto {
+    width: 1200px;
+    padding: 10px 40px 10px 10px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 5px;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+section.outros-conjuntos {
+    margin-top: 80px;
+    padding: 80px 4%;
+    background-image: linear-gradient(165deg, var(--cor-neutra) -50%, var(--cor-clara), var(--cor-neutra) 150%);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.329);
+}
+
+.outros-conjuntos h2 {
+    text-align: center;
+}
+
+.outros-conjuntos .especialidades-box {
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.253);
+    margin: 40px 45px 0px 42px;
+    transition: .2s;
+    width: 20%;
+    text-align: center;
+}
+
+.outros-conjuntos .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.479);
+}
+
+.outros-conjuntos .especialidades-box img {
+    border-radius: 10px;
+    width: 320px;
+}

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* ESTILO GERAL */
+
 .flex {
     display: flex;
 }
@@ -36,39 +37,74 @@ section.topo-do-site {
 }
 
 
-/* ESTILO DAS ESPECIALIDADES */
-section.especialidades {
+/* ESTILO DOS CONJUNTOS */
+section.conjuntos {
     padding: 80px 4%;
     background-image: linear-gradient(165deg, var(--cor-clarinha), var(--cor-clara), var(--cor-neutra) 170%);
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.226);
 }
 
-.especialidades h2 {
+.conjuntos h2 {
     color: black;
     font-size: 42px;
     line-height: 40px;
     text-align: center;
 }
 
-section.especialidades .flex {
-    gap: 125px;
-}
-
-.especialidades .especialidades-box {
+.conjuntos .especialidades-box {
+    display: inline-block;
     color: black;
-    padding: 40px;
+    padding: 10px;
     border-radius: 20px;
     border: 0.5px solid rgba(0, 0, 0, 0.253);
-    margin-top: 40px;
+    margin: 40px 45px 0px 42px;
     transition: .2s;
-    width: 100%;
+    width: 20%;
+    text-align: center;
 }
 
-.especialidades .especialidades-box:hover {
+.conjuntos .especialidades-box:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.479);
 }
 
-.especialidades .especialidades-box img {
-    width: 420px;
+.conjuntos .especialidades-box img {
+    border-radius: 10px;
+    width: 320px;
+}
+
+/* ESTILO DAS COLEÇÕES */
+section.colecao {
+    padding: 80px 4%;
+    background-image: linear-gradient(165deg, var(--cor-neutra) -50%, var(--cor-clara), var(--cor-neutra) 150%);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.226);
+}
+
+.colecao h2 {
+    color: black;
+    font-size: 42px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.colecao .especialidades-box {
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.253);
+    margin: 40px 45px 0px 42px;
+    transition: .2s;
+    width: 20%;
+    text-align: center;
+}
+
+.colecao .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.479);
+}
+
+.colecao .especialidades-box img {
+    border-radius: 10px;
+    width: 320px;
 }
